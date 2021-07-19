@@ -209,6 +209,7 @@ Before buying an adapter, please read the notes below!
 serial:
   adapter: deconz # deconz for Conbee II OR "zigate" for the ZiGate USB-TTL
 ```
+- When using a **Conbee II** and you get: `Error while opening serialport: Resource busy, cannot open /dev/ttyACM0` before starting Zigbee2MQTT make sure you have disabled the deCONZ add-on first, then restart Zigbee2MQTT.
 
 ### Router
 Besides serving as a coordinator some adapters can also be used as a Zigbee router (check if there is a router firmware in the firmware column). To factory reset/pair:
